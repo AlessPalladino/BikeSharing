@@ -191,7 +191,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](README_PICTURES/output_6_0.png)
 
 
 
@@ -201,7 +201,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![png](README_PICTURES/output_7_0.png)
 
 
 
@@ -211,7 +211,7 @@ plt.show()
 ```
 
 
-![png](output_8_0.png)
+![png](README_PICTURES/output_8_0.png)
 
 
 
@@ -221,7 +221,7 @@ plt.show()
 ```
 
 
-![png](output_9_0.png)
+![png](README_PICTURES/output_9_0.png)
 
 
 ### Dummy variables
@@ -459,7 +459,7 @@ val_features, val_targets = features[-60*24:], targets[-60*24:]
 
 Here it is the structure of the network. The first task is to implement both the forward pass and backwards pass through the network completely using numpy. The second task is set the hyperparameters: the learning rate, the number of hidden units, and the number of training passes.
 
-<img src="assets/neural_network.png" width=300px>
+<img src="README_PICTURES/neural_network.png" width=300px>
 
 The network has two layers, a hidden layer and an output layer. The hidden layer will use the sigmoid function for activations. The output layer has only one node and is used for the regression, the output of the node is the same as the input of the node. That is, the activation function is $f(x)=x$. 
 
@@ -657,11 +657,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.073 ... Validation loss: 0.158
 
 
-![png](output_25_1.png)
+![png](README_PICTURES/output_25_1.png)
 
 
 
-![png](output_25_2.png)
+![png](README_PICTURES/output_25_2.png)
 
 
      
@@ -671,11 +671,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.068 ... Validation loss: 0.153
 
 
-![png](output_25_4.png)
+![png](README_PICTURES/output_25_4.png)
 
 
 
-![png](output_25_5.png)
+![png](README_PICTURES/output_25_5.png)
 
 
      
@@ -685,11 +685,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.067 ... Validation loss: 0.152
 
 
-![png](output_25_7.png)
+![png](README_PICTURES/output_25_7.png)
 
 
 
-![png](output_25_8.png)
+![png](README_PICTURES/output_25_8.png)
 
 
      
@@ -699,11 +699,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.068 ... Validation loss: 0.139
 
 
-![png](output_25_10.png)
+![png](README_PICTURES/output_25_10.png)
 
 
 
-![png](output_25_11.png)
+![png](README_PICTURES/output_25_11.png)
 
 
      
@@ -713,11 +713,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.078 ... Validation loss: 0.143
 
 
-![png](output_25_13.png)
+![png](README_PICTURES/output_25_13.png)
 
 
 
-![png](output_25_14.png)
+![png](README_PICTURES/output_25_14.png)
 
 
      
@@ -727,11 +727,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.059 ... Validation loss: 0.152
 
 
-![png](output_25_16.png)
+![png](README_PICTURES/output_25_16.png)
 
 
 
-![png](output_25_17.png)
+![png](README_PICTURES/output_25_17.png)
 
 
      
@@ -741,11 +741,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.068 ... Validation loss: 0.189
 
 
-![png](output_25_19.png)
+![png](README_PICTURES/output_25_19.png)
 
 
 
-![png](output_25_20.png)
+![png](README_PICTURES/output_25_20.png)
 
 
      
@@ -755,11 +755,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.067 ... Validation loss: 0.159
 
 
-![png](output_25_22.png)
+![png](README_PICTURES/output_25_22.png)
 
 
 
-![png](output_25_23.png)
+![png](README_PICTURES/output_25_23.png)
 
 
      
@@ -769,11 +769,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.067 ... Validation loss: 0.148
 
 
-![png](output_25_25.png)
+![png](README_PICTURES/output_25_25.png)
 
 
 
-![png](output_25_26.png)
+![png](README_PICTURES/output_25_26.png)
 
 
      
@@ -783,11 +783,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.064 ... Validation loss: 0.183
 
 
-![png](output_25_28.png)
+![png](README_PICTURES/output_25_28.png)
 
 
 
-![png](output_25_29.png)
+![png](README_PICTURES/output_25_29.png)
 
 
      
@@ -797,11 +797,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.064 ... Validation loss: 0.156
 
 
-![png](output_25_31.png)
+![png](README_PICTURES/output_25_31.png)
 
 
 
-![png](output_25_32.png)
+![png](README_PICTURES/output_25_32.png)
 
 
      
@@ -811,11 +811,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.072 ... Validation loss: 0.167
 
 
-![png](output_25_34.png)
+![png](README_PICTURES/output_25_34.png)
 
 
 
-![png](output_25_35.png)
+![png](README_PICTURES/output_25_35.png)
 
 
      
@@ -825,11 +825,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.071 ... Validation loss: 0.158
 
 
-![png](output_25_37.png)
+![png](README_PICTURES/output_25_37.png)
 
 
 
-![png](output_25_38.png)
+![png](README_PICTURES/output_25_38.png)
 
 
      
@@ -839,11 +839,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.063 ... Validation loss: 0.143
 
 
-![png](output_25_40.png)
+![png](README_PICTURES/output_25_40.png)
 
 
 
-![png](output_25_41.png)
+![png](README_PICTURES/output_25_41.png)
 
 
      
@@ -853,11 +853,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.058 ... Validation loss: 0.130
 
 
-![png](output_25_43.png)
+![png](README_PICTURES/output_25_43.png)
 
 
 
-![png](output_25_44.png)
+![png](README_PICTURES/output_25_44.png)
 
 
      
@@ -867,11 +867,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.062 ... Validation loss: 0.161
 
 
-![png](output_25_46.png)
+![png](README_PICTURES/output_25_46.png)
 
 
 
-![png](output_25_47.png)
+![png](README_PICTURES/output_25_47.png)
 
 
      
@@ -881,11 +881,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.062 ... Validation loss: 0.159
 
 
-![png](output_25_49.png)
+![png](README_PICTURES/output_25_49.png)
 
 
 
-![png](output_25_50.png)
+![png](README_PICTURES/output_25_50.png)
 
 
      
@@ -895,11 +895,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.072 ... Validation loss: 0.155
 
 
-![png](output_25_52.png)
+![png](README_PICTURES/output_25_52.png)
 
 
 
-![png](output_25_53.png)
+![png](README_PICTURES/output_25_53.png)
 
 
      
@@ -909,11 +909,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.086 ... Validation loss: 0.278
 
 
-![png](output_25_55.png)
+![png](README_PICTURES/output_25_55.png)
 
 
 
-![png](output_25_56.png)
+![png](README_PICTURES/output_25_56.png)
 
 
      
@@ -923,11 +923,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.079 ... Validation loss: 0.198
 
 
-![png](output_25_58.png)
+![png](README_PICTURES/output_25_58.png)
 
 
 
-![png](output_25_59.png)
+![png](README_PICTURES/output_25_59.png)
 
 
      
@@ -937,11 +937,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.059 ... Validation loss: 0.140
 
 
-![png](output_25_61.png)
+![png](README_PICTURES/output_25_61.png)
 
 
 
-![png](output_25_62.png)
+![png](README_PICTURES/output_25_62.png)
 
 
      
@@ -951,11 +951,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.062 ... Validation loss: 0.156
 
 
-![png](output_25_64.png)
+![png](README_PICTURES/output_25_64.png)
 
 
 
-![png](output_25_65.png)
+![png](README_PICTURES/output_25_65.png)
 
 
      
@@ -965,11 +965,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.065 ... Validation loss: 0.172
 
 
-![png](output_25_67.png)
+![png](README_PICTURES/output_25_67.png)
 
 
 
-![png](output_25_68.png)
+![png](README_PICTURES/output_25_68.png)
 
 
      
@@ -979,11 +979,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.062 ... Validation loss: 0.158
 
 
-![png](output_25_70.png)
+![png](README_PICTURES/output_25_70.png)
 
 
 
-![png](output_25_71.png)
+![png](README_PICTURES/output_25_71.png)
 
 
      
@@ -993,11 +993,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.061 ... Validation loss: 0.142
 
 
-![png](output_25_73.png)
+![png](README_PICTURES/output_25_73.png)
 
 
 
-![png](output_25_74.png)
+![png](README_PICTURES/output_25_74.png)
 
 
      
@@ -1007,11 +1007,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.064 ... Validation loss: 0.158
 
 
-![png](output_25_76.png)
+![png](README_PICTURES/output_25_76.png)
 
 
 
-![png](output_25_77.png)
+![png](README_PICTURES/output_25_77.png)
 
 
      
@@ -1021,11 +1021,11 @@ for iterations in iter_:
     Progress: 100.0% ... Training loss: 0.058 ... Validation loss: 0.130
 
 
-![png](output_25_79.png)
+![png](README_PICTURES/output_25_79.png)
 
 
 
-![png](output_25_80.png)
+![png](README_PICTURES/output_25_80.png)
 
 
 
@@ -1162,5 +1162,5 @@ _ = ax.set_xticklabels(dates[12::24], rotation=45)
 ```
 
 
-![png](output_32_0.png)
+![png](README_PICTURES/output_32_0.png)
 
