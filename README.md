@@ -1,5 +1,7 @@
 # Daily Bike Rental Prediction Through a Fully Connected NN
 
+This is a project part of DeepLearning Nanodegree provided by Udacity.
+
 In this project, a fully connected neural network has been build, completely on numpy, and use it to predict daily bike rental ridership. 
 
 
